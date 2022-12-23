@@ -34,7 +34,7 @@ public class Elementos {
 	private By barraOrigem = By.xpath("//input[@aria-label='Campo de origem']");
 	private By barraDest = By.xpath("//*[@placeholder='Destino']");
 	private By btnPesq = By.xpath("//*[@aria-label='Buscar']");
-	private By btnMenu = By.id("//li [@id = 'nomad']");
+	private By btnMenu = By.xpath("//*[@id=\"c8kWU\"]/div/div/div/div[1]/div[1]/div[1]/div/div/span[1]");
 	
 }
    
